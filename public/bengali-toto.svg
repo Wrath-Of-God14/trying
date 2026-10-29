@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840 500" role="img" aria-label="Cute animated Bengali electric toto with open sides and a friendly driver">
+ <title>The tiniest toto adventure</title>
+ <defs>
+  <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fffaf1"/><stop offset="1" stop-color="#ffefdc"/></linearGradient>
+  <linearGradient id="paint" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d9eee5"/><stop offset="1" stop-color="#82b8a9"/></linearGradient>
+  <linearGradient id="roof" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fce8ac"/><stop offset="1" stop-color="#dfa765"/></linearGradient>
+  <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#d9f4ec" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="9"/></filter>
+  <style>
+   .body{animation:ride 2.35s ease-in-out infinite;transform-origin:420px 320px}
+   .wheel{animation:roll 1.05s linear infinite;transform-box:fill-box;transform-origin:center}
+   .stripe{animation:street 2.1s linear infinite}
+   .cloud-a{animation:cloud 11s linear infinite}
+   .cloud-b{animation:cloud 15s linear infinite reverse}
+   .wave{animation:wave 3.2s ease-in-out infinite;transform-origin:578px 260px}
+   .flower{animation:sway 3.7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+   .toot{animation:toot 5s ease-in-out infinite;transform-origin:655px 166px}
+   .lamp{animation:glow 2.1s ease-in-out infinite}
+   @keyframes ride{0%,100%{transform:translateY(0)}35%{transform:translateY(-5px)}65%{transform:translateY(-1px)}}
+   @keyframes roll{to{transform:rotate(360deg)}}
+   @keyframes street{0%{transform:translateX(0)}100%{transform:translateX(-200px)}}
+   @keyframes cloud{0%{transform:translateX(-18px)}50%{transform:translateX(18px)}100%{transform:translateX(-18px)}}
+   @keyframes wave{0%,65%,100%{transform:rotate(0deg)}73%,84%{transform:rotate(-13deg)}78%{transform:rotate(7deg)}}
+   @keyframes sway{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(9deg)}}
+   @keyframes toot{0%,45%,62%,100%{opacity:0;transform:translateY(8px) scale(.8)}51%,57%{opacity:1;transform:translateY(0) scale(1)}}
+   @keyframes glow{0%,100%{opacity:.6}50%{opacity:1}}
+   @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+ </defs>
+ <rect width="840" height="500" rx="28" fill="url(#bg)"/>
+ <g opacity=".55" fill="#fff"><path class="cloud-a" d="M80 112a24 24 0 0 1 46-11 31 31 0 0 1 57 15 23 23 0 0 1 8 43H70a24 24 0 0 1 10-47Z"/><path class="cloud-b" d="M692 90a16 16 0 0 1 32-5 23 23 0 0 1 43 10 17 17 0 0 1 0 34h-82a18 18 0 0 1 7-39Z"/></g>
+ <g fill="none" stroke="#dbaf79" stroke-width="3" stroke-linecap="round" opacity=".65"><path d="m102 290 14-12 13 12"/><path d="m111 289 5 20"/><path d="m740 289 11-9 11 9"/><path d="m750 288 1 15"/></g>
+ <path d="M0 408Q200 398 405 410T840 405V500H0Z" fill="#edddc7"/>
+ <path d="M0 441H840" stroke="#b9a18d" stroke-width="4"/>
+ <g fill="#fffdf6" opacity=".8"><rect class="stripe" x="30" y="462" width="98" height="8" rx="4"/><rect class="stripe" x="230" y="462" width="98" height="8" rx="4"/><rect class="stripe" x="430" y="462" width="98" height="8" rx="4"/><rect class="stripe" x="630" y="462" width="98" height="8" rx="4"/><rect class="stripe" x="830" y="462" width="98" height="8" rx="4"/></g>
+ <ellipse cx="426" cy="420" rx="256" ry="18" fill="#806b60" opacity=".20" filter="url(#shadow)"/>
+ <g class="body" stroke-linecap="round" stroke-linejoin="round">
+  <!-- REAR AND FRONT WHEELS appear behind the body; three-wheeler type, not a closed bus -->
+  <g transform="translate(279 389)"><g class="wheel"><circle r="43" fill="#332a30"/><circle r="31" fill="#5e5558"/><circle r="23" fill="#d4d5ce"/><circle r="15" fill="#f8ecda"/><g stroke="#727b78" stroke-width="4"><path d="M-22 0H22M0-22V22M-16-16L16 16M16-16L-16 16"/></g><circle r="6" fill="#8a4256"/></g></g>
+  <g transform="translate(618 389)"><g class="wheel"><circle r="40" fill="#342b30"/><circle r="29" fill="#5b5154"/><circle r="22" fill="#d3d5ce"/><circle r="14" fill="#fff0d8"/><g stroke="#727b78" stroke-width="4"><path d="M-21 0H21M0-21V21M-15-15L15 15M15-15L-15 15"/></g><circle r="6" fill="#8a4256"/></g></g>
+  <!-- raised open passenger canopy -->
+  <path d="M203 188Q205 150 243 142Q379 117 560 137Q604 140 618 174L630 194Q634 201 621 203H201Q187 203 203 188Z" fill="url(#roof)" stroke="#553944" stroke-width="8"/>
+  <path d="M218 172Q407 143 608 178" fill="none" stroke="#fff1c3" stroke-width="7" opacity=".85"/>
+  <path d="M242 199L237 343M478 197L473 347M593 198L589 336" fill="none" stroke="#644d52" stroke-width="10"/>
+  <path d="M254 202V319H463V199" fill="#dbeee5" fill-opacity=".21"/>
+  <!-- passenger bench visible through the open side -->
+  <path d="M282 282Q319 270 435 276L455 299V338H272V302Z" fill="#bb807f" stroke="#573b47" stroke-width="7"/>
+  <path d="M279 304H459" stroke="#f6c5b1" stroke-width="7"/>
+  <path d="M281 334L267 350M444 333L462 351" stroke="#64434b" stroke-width="7"/>
+  <!-- front driver's windshield with visible open cabin -->
+  <path d="M481 200L587 203L613 292L479 292Z" fill="url(#glass)" stroke="#654c53" stroke-width="8"/>
+  <path d="M490 216L580 216L598 274H484Z" fill="#d1f0e9" opacity=".35"/>
+  <path d="M503 215L496 277" stroke="#fff" stroke-width="10" opacity=".65"/>
+  <!-- driver (visible in front area) -->
+  <path d="M545 269Q552 250 573 249Q600 249 605 280L607 308H538Z" fill="#c86f71" stroke="#573b47" stroke-width="6"/>
+  <rect x="561" y="241" width="17" height="20" rx="8" fill="#e8ab84" stroke="#573b47" stroke-width="4"/>
+  <ellipse cx="570" cy="221" rx="28" ry="32" fill="#e9af8d" stroke="#573b47" stroke-width="5"/>
+  <path d="M542 220Q537 194 553 187Q572 177 591 191Q601 201 597 219Q589 209 580 209Q561 219 542 220Z" fill="#302b35" stroke="#573b47" stroke-width="4"/>
+  <path d="M549 197Q563 185 583 194" fill="none" stroke="#4a3a3f" stroke-width="5"/>
+  <path d="M553 224v4M580 224v4" stroke="#4c3540" stroke-width="4"/>
+  <path d="M560 238q10 7 18-1" fill="none" stroke="#8c4c55" stroke-width="3"/>
+  <!-- steering -->
+  <path d="M612 280L598 313" stroke="#563d48" stroke-width="6"/><ellipse cx="608" cy="278" rx="16" ry="6" fill="none" stroke="#563d48" stroke-width="6"/>
+  <!-- waving driver hand -->
+  <g class="wave"><path d="M578 267L605 248L620 229" stroke="#573b47" stroke-width="13" fill="none"/><path d="M578 267L605 248L620 229" stroke="#e9af8d" stroke-width="8" fill="none"/><ellipse cx="625" cy="221" rx="12" ry="17" transform="rotate(19 625 221)" fill="#e9af8d" stroke="#573b47" stroke-width="4"/><path d="M618 211L612 199M625 208L622 196M633 210L634 198" fill="none" stroke="#573b47" stroke-width="3"/></g>
+  <!-- open three wheeler chassis -->
+  <path d="M225 319H517L552 301L632 302Q662 309 664 336L655 366Q654 379 641 379H205Q190 379 190 365L196 344Q201 327 225 319Z" fill="url(#paint)" stroke="#553944" stroke-width="8"/>
+  <path d="M204 341H648" stroke="#f9faf0" stroke-width="8" opacity=".75"/>
+  <path d="M207 371H648" stroke="#6e4752" stroke-width="13"/>
+  <path d="M373 323V365M466 322V365" stroke="#578d83" stroke-width="5" opacity=".7"/>
+  <rect x="248" y="342" width="83" height="20" rx="10" fill="#fce4a8" stroke="#6c4853" stroke-width="3"/>
+  <text x="290" y="356" text-anchor="middle" font-size="13" font-weight="800" font-family="Verdana,Arial,sans-serif" fill="#664551">TOTO</text>
+  <path d="M632 319Q654 322 653 341L633 342Z" fill="#ffdd9f" stroke="#694952" stroke-width="5"/>
+  <path class="lamp" d="M641 325L670 313L670 352L641 340Z" fill="#ffebb4" opacity=".65"/>
+  <!-- decorative flower sticker -->
+  <g class="flower" transform="translate(422 352)"><g fill="#fff8df" stroke="#a46973" stroke-width="1"><ellipse cy="-9" rx="5" ry="9"/><ellipse cy="9" rx="5" ry="9"/><ellipse cx="9" rx="9" ry="5"/><ellipse cx="-9" rx="9" ry="5"/></g><circle r="5" fill="#f4b45b"/></g>
+  <!-- wheel fenders (front cab and rear passenger wheel) -->
+  <path d="M226 385Q227 336 279 335Q330 336 332 385" fill="none" stroke="#553944" stroke-width="9"/>
+  <path d="M573 385Q574 342 618 341Q662 342 663 385" fill="none" stroke="#553944" stroke-width="9"/>
+ </g>
+ <g class="toot"><path d="M645 122Q628 120 628 104Q629 88 648 86H713Q730 86 731 102Q731 119 713 121H678L667 134L663 121Z" fill="#fffdf7" stroke="#6a4351" stroke-width="4"/><text x="679" y="110" text-anchor="middle" font-size="17" font-weight="700" fill="#7d4656" font-family="Arial,sans-serif">peep peep!</text></g>
+ <g opacity=".72"><path d="m153 222 9-7 9 7-9 7Z" fill="#a87f89"/><circle cx="728" cy="237" r="5" fill="#daaa7c"/><circle cx="728" cy="237" r="2" fill="#fff"/></g>
+</svg>

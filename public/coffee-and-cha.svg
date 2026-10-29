@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" role="img" aria-label="Animated coffee mug and Bengali clay cup of cha with rising steam">
+ <title>Cha or coffee? Your choice.</title>
+ <defs>
+ <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff9f2"/><stop offset="1" stop-color="#fce8d8"/></linearGradient>
+ <linearGradient id="coffee" x1="0" x2="1"><stop stop-color="#f8d8c4"/><stop offset=".55" stop-color="#fff3e6"/><stop offset="1" stop-color="#e4aa97"/></linearGradient>
+ <linearGradient id="chai" x1="0" x2="1"><stop stop-color="#d89a73"/><stop offset=".42" stop-color="#f1c59d"/><stop offset="1" stop-color="#ae644b"/></linearGradient>
+ <linearGradient id="wood" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#c3a594"/><stop offset="1" stop-color="#94766d"/></linearGradient>
+ <style>
+ .steam1{animation:steam 3.2s ease-in-out infinite}.steam2{animation:steam 3.4s ease-in-out -1.1s infinite}.steam3{animation:steam 3.1s ease-in-out -1.8s infinite}.steam4{animation:steam 3.6s ease-in-out -.65s infinite}
+ .mug{animation:sips 4.8s ease-in-out infinite;transform-origin:310px 364px}.bhar{animation:bhar 5.5s ease-in-out infinite;transform-origin:552px 375px}
+ .sparkle{animation:twinkle 2.9s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+ .flower{animation:flower 5s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+ @keyframes steam{0%{opacity:0;transform:translate(0,18px)}25%{opacity:.65}75%{opacity:.45}100%{opacity:0;transform:translate(8px,-40px)}}
+ @keyframes sips{0%,70%,100%{transform:rotate(0)}74%,83%{transform:rotate(-4deg)}}
+ @keyframes bhar{0%,63%,100%{transform:rotate(0)}70%,80%{transform:rotate(4deg)}}
+ @keyframes twinkle{0%,100%{opacity:.35;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+ @keyframes flower{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(10deg)}}
+ @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+ </style></defs>
+ <rect width="840" height="500" rx="28" fill="url(#bg)"/>
+ <circle cx="413" cy="203" r="160" fill="#fff9e9" opacity=".75"/>
+ <g opacity=".45" fill="none" stroke="#cf8b83" stroke-width="3"><path d="M145 141l10-10 10 10-10 10Z"/><path d="M693 164l10-10 10 10-10 10Z"/></g>
+ <g class="sparkle" fill="#c59b66"><path d="m188 260 4-13 4 13 13 4-13 4-4 13-4-13-13-4Z"/></g><g class="sparkle" fill="#8e596c"><path d="m652 262 4-12 4 12 12 4-12 4-4 12-4-12-12-4Z"/></g>
+ <!-- Steam behind cups -->
+ <g fill="none" stroke="#ad7c79" stroke-width="8" stroke-linecap="round" opacity=".7"><path class="steam1" d="M282 233C252 214 308 196 279 175C254 155 292 132 283 114"/><path class="steam2" d="M326 230C299 208 344 192 325 166C310 144 340 136 335 121"/><path class="steam3" d="M538 247C510 225 562 208 539 186C520 165 547 149 543 132"/><path class="steam4" d="M573 251C547 228 592 214 575 186C566 170 585 154 584 139"/></g>
+ <!-- table and shadows -->
+ <path d="M95 401Q420 391 745 401V431H95Z" fill="url(#wood)" stroke="#684a53" stroke-width="5"/>
+ <path d="M121 432V483M719 432V483" stroke="#896c65" stroke-width="17" stroke-linecap="round"/>
+ <ellipse cx="312" cy="396" rx="135" ry="15" fill="#795759" opacity=".18"/><ellipse cx="555" cy="397" rx="111" ry="15" fill="#795759" opacity=".18"/>
+ <!-- Coffee cup with oversized handle, saucer, and cocoa latte swirl -->
+ <g class="mug" stroke-linejoin="round"><ellipse cx="305" cy="386" rx="113" ry="18" fill="#e9c2b4" stroke="#805560" stroke-width="4"/><ellipse cx="305" cy="384" rx="94" ry="10" fill="#fff1e2"/>
+ <path d="M389 280Q462 256 456 321Q452 377 387 355" fill="none" stroke="#744959" stroke-width="20"/><path d="M389 280Q453 261 444 321Q437 365 387 348" fill="none" stroke="#f0c6b5" stroke-width="14"/>
+ <path d="M215 267H396L378 374Q375 387 349 388H264Q240 386 236 373Z" fill="url(#coffee)" stroke="#744959" stroke-width="6"/>
+ <ellipse cx="305" cy="267" rx="91" ry="24" fill="#fff2df" stroke="#744959" stroke-width="6"/>
+ <ellipse cx="305" cy="268" rx="76" ry="14" fill="#9a6455"/>
+ <path d="M265 265Q281 252 300 263Q312 245 330 261Q356 259 343 270Q326 284 304 272Q276 282 265 265Z" fill="#f9d7b5"/>
+ <path d="M288 269Q308 257 321 269" fill="none" stroke="#a16f59" stroke-width="3"/>
+ <path d="M247 316Q260 337 247 352" fill="none" stroke="#fff" stroke-width="8" opacity=".5"/>
+ </g>
+ <!-- traditional Bengali kulhad / bhaar clay tea cup -->
+ <g class="bhar" stroke-linejoin="round">
+ <ellipse cx="556" cy="386" rx="94" ry="14" fill="#e6b9a1" stroke="#8b5760" stroke-width="4"/>
+ <path d="M495 277H616L597 377Q594 387 576 390H536Q517 389 513 376Z" fill="url(#chai)" stroke="#784b54" stroke-width="6"/>
+ <path d="M500 296Q556 312 609 296M508 333Q556 351 601 333M520 363Q555 372 588 363" fill="none" stroke="#a46356" stroke-width="3" opacity=".56"/>
+ <ellipse cx="556" cy="279" rx="62" ry="17" fill="#efc09d" stroke="#7b4c55" stroke-width="6"/>
+ <ellipse cx="556" cy="279" rx="49" ry="11" fill="#b66d44"/>
+ <path d="M527 278Q553 269 582 278" fill="none" stroke="#dfaa82" stroke-width="3"/>
+ <path d="M523 313Q530 328 519 345" stroke="#f8dfbe" stroke-width="6" opacity=".65" fill="none"/>
+ <g fill="#e6ab88" stroke="#995e56" stroke-width="1"><path d="m553 334 7-9 8 9-8 10Z"/><circle cx="558" cy="334" r="3" fill="#fff2cc"/></g>
+ </g>
+ <!-- couple of flowers on table, no hearts -->
+ <g class="flower" transform="translate(423 386)"><path d="M0 1Q-14-28-29-35M1 2Q16-26 29-32" fill="none" stroke="#6c9786" stroke-width="4"/><g fill="#d7908d"><circle cx="-31" cy="-38" r="9"/><circle cx="-43" cy="-37" r="7"/><circle cx="-35" cy="-49" r="7"/></g><circle cx="-36" cy="-41" r="5" fill="#f2c68a"/><g fill="#e4b563"><circle cx="30" cy="-32" r="8"/><circle cx="39" cy="-31" r="7"/><circle cx="33" cy="-42" r="7"/></g><circle cx="34" cy="-35" r="5" fill="#805963"/></g>
+ <g fill="#644752" font-family="Georgia,serif" text-anchor="middle"><text x="307" y="454" font-size="20" font-style="italic">coffee?</text><text x="555" y="454" font-size="20" font-style="italic">na cha?</text></g>
+</svg>
