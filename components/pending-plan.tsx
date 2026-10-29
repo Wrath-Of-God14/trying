@@ -36,11 +36,12 @@ export function PendingPlan() {
     </AnimatePresence>
     {scene > 0 && scene < 3 && <button className="back" onClick={back}>← Back</button>}
     <p className="scene-label">{labels[scene]}</p>
+    <p className="admirer-credit">made by your biggest fan<br />and admirer since 2011</p>
   </main>;
 }
 
 function Sorry({ go, reduced }: { go: () => void; reduced: boolean }) {
-  return <div className="sorry-scene"><KaanPakadkeCharacter reduced={reduced} /><p className="eyebrow">for Ishika, an extremely serious apology</p><h1>Kaan pakadke<br /><i>sorry.</i></h1><p className="lead">Kal tumne bola tha, aur main hi time nahi nikaal paaya. Not my finest moment, I know. 🥺</p><p className="smaller">Toh ek chhota sa sorry… with unnecessarily high production value.</p><Button onClick={go}>Okay, explain yourself</Button></div>;
+  return <div className="sorry-scene"><KaanPakadkeCharacter reduced={reduced} /><p className="eyebrow">for Ishika, an extremely serious apology</p><h1>Kaan pakadke<br /><i>sorry.</i></h1><p className="lead">Kal tumne bola tha, aur main hi time nahi nikaal paaya. Not my finest moment, I know. 🥺</p><p className="smaller">Toh ek chhota sa sorry… with unnecessarily high production value.</p><Button onClick={go}>Let me make it up to you</Button></div>;
 }
 
 function TotoScene({ go }: { go: () => void }) {
